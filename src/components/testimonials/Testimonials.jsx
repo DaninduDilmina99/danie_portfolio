@@ -22,7 +22,7 @@ const Testimonials = () => {
         <span className="section__subtitle">Testimonial</span>
 
         <Swiper className="testimonial__container" 
-        loop={true}
+        loop={true}  
         grabCursor={true}
         spaceBetween={24}
         pagination={{
