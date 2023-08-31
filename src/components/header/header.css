@@ -44,8 +44,24 @@
 /* Active Link */
 .active-link,
 .nav_link:hover{
-    color: rgb(255, 217, 0);
+    color: var(--title-color-dark);
+    /* color: rgb(255, 123, 0); */
+    /* color: rgb(255, 0, 0); */
+    
 }
+
+/* ============== my modifications ===================*/
+
+.active-link::after{
+    content: "";
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--text-color);
+}
+
+/* ================================================== */
 
 /* Change the background header */
 
