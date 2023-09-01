@@ -44,7 +44,7 @@ export const projectsData = [
         name: "all",
     },
     {
-        name: "web",
+        name: "Web",
     },
     {
         name: "app",
